@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#ffff;
+   
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 700;
+}
+/* Header-Nav section Start */
+header{
+    width: 100%;
+    height: 677px;
+    background-color: #2D25A0; 
+}
+nav{
+    height: 44px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+  
+}
+.nav-items{
+    width: 587px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar .nav-items a, .btn{
+    color: #ffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.btn{
+    width: 123px;
+    height: 44px;
+    background-color:#E02C6D ;
+}
+
+/* Header-Nav section End */
+
+/* Header-main section */
+.main-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.heading-title{
+    width: 485px;
+    height: 230px;
+    color: #ffff;
+    margin-top: 121px;
+}
+.heading-title h1{
+    font-size: 64px;
+    color: #ffff;
+    font-weight: 700;
+}
+.heading-banner{
+    /* width: 556.01px;
+    height: 438px;  */
+    margin-top: 49px; 
+}
+.heading-banner img{
+    /* width: 388px;
+    height: 428px;   */
+    width: 556.01px;
+    height: 438px;
+}
+/* Header-main section End */
+
+
+/* Main content Start */
+.main-content{
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: #FAFAFA; */
+    /* box-shadow: 0px 0px 40px 0px #00000026; */
+}
+.players-gallery{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+   
+}
+.players-info{
+    /* width: 300px;
+    height: 426px; */
+    margin:33px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  
+}
+.players-img img{
+    width: 280px;
+    height: 256px;
+    margin: 20px 30px;
+   
+}
+.players-details h3{
+    color: #18191F;
+    font-size:28px;
+    font-weight: 700;
+}
+.players-details p{
+    color:#6C6C6C;
+    font-size:16px;
+    font-weight: 500;
+}
+.players-details{
+    margin: 20px;
+}
+/* Partner Brand */
+.partner{
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 30px;
+    background-color:#0D8BD9;
+   
+}
+.partner h5{
+    color: #fff;;
+    font-size:24px;
+    /* text-align: center; */
+    font-family: 'Open Sans Condensed', sans-serif;
+  
+}
+.partner-brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner-brand img{
+    height: 100px;
+    width: 100px;
+}
+/* <!-- My club pro story */
+.pro-story{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    /* background-image: linear-gradient(#061D48, #47C3F6); */
+    border-radius: 20px;
+     
+}
+.story{
+    display: flex; 
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    justify-content: space-between; 
+    align-items: flex-end;
+    margin-top: 20px ;
+}
+article{
+    width: 40%;
+    margin: 118px 57px;
+}
+article h1{
+    color: #18191F;
+    font-size:28px;
+    font-weight: 700;
+}
+article p{
+    color:#6C6C6C;
+    font-size:16px;
+    font-weight: 500;
+}
+.story-vedio{
+    width: 50%;
+    margin: 44px
+}
+.story-vedio iframe{
+    height: 380px;
+    width: 100%;
+    border-radius: 20px;
+}
+/* Main content End */
+/* Footer start */
+footer{
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+footer img{
+    height: 60px;
+    width: 190px;   
+}
+.footer-2nd{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.footer-2nd .icon{
+    background-color: #E7E7E8;
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    margin-left: 20px;
+}
+.youtube{
+    padding-right: 37px;
+}
+footer i a{
+  
+  
+}
+footer i{
+    color: #969BAB;
+   padding:7px;
+    font-size: 20px;
+}
+.footer-3rd{
+    margin-top: 20px;
+}
+
+/* Footer End */
+
+
+

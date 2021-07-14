@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tigert</title>
+    <style>
+        /* body{
+            background-image: url("pic/download.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+        } */
+          
+        
+        
+        .tiger, .men img{
+            height: 200px;
+            width: 200px;
+        }
+        .run{
+            margin: 100px 50px 0 100px;
+            /* border: 2px solid; */
+            width: 100%;
+            height: 300px;
+            
+        }
+        .tiger{
+            transition:transform 1s ease-in ;
+            position: relative;
+            left:15px;
+            top: 350px;
+
+        }
+        .run:hover .tiger{
+            transform: translateX(200px) scale(1.5);
+        }
+        .men{
+            transition: transform 1s ease-out 0.2s; 
+            position: relative;
+            left:15px;
+            top: 350px;
+        }
+        
+       .run:hover  .men{
+            transform: translateX(200px) scale(2);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="run">
+       
+        <img class="tiger" src="images/tiger-animation-img/images__1_-removebg-preview.png" alt="">
+        <img class="men" src="images/tiger-animation-img/images.png" alt="">
+    </div>
+</body>
+</html>
